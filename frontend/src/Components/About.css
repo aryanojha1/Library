@@ -1,0 +1,64 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+/* About Box */
+.about-box {
+  background-color: rgb(16, 25, 13);
+  padding: 20px; /* Added padding for better spacing */
+}
+
+/* About Title */
+.about-title {
+  color: rgb(238, 129, 30);
+  text-align: center;
+  font-size: 32px;
+  padding: 25px;
+  font-family: 'Poppins', sans-serif; /* Applied the Poppins font */
+}
+
+/* About Image */
+.about-img img {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 25px;
+  padding: 15px;
+  display: block; /* Added display block to center the image */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Mobile View */
+@media screen and (max-width: 768px) {
+  .about-data {
+    display: flex; /* Change to flex for better mobile layout */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text */
+  }
+
+  .about-data p {
+    margin: 0;
+    font-size: 15px; /* Increase font size for readability */
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    color: rgb(220, 225, 219);
+    padding: 15px;
+  }
+}
+
+/* Desktop View */
+@media screen and (min-width: 768px) {
+  .about-data {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px; /* Add gap between columns */
+  }
+
+  .about-data p {
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    color: rgb(220, 225, 219);
+    padding: 15px;
+  }
+}

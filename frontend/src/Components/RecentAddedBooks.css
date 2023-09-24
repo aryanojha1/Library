@@ -1,0 +1,70 @@
+/* Recent Added Books Container */
+.recentaddedbooks-container {
+    background-color: rgb(16, 25, 13);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    padding: 20px;
+    margin-bottom: 20px; /* Added margin at the bottom for spacing */
+  }
+  
+  /* Recent Books Wrapper */
+  .recentbooks {
+    padding: 20px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1200px; /* Limit the maximum width for better responsiveness */
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap; /* Allow books to wrap to the next row on smaller screens */
+  }
+  
+  /* Pause Animation on Hover */
+  .recentbooks:hover div {
+    animation-play-state: paused;
+  }
+  
+  /* Recent Books Title */
+  .recentbooks-title {
+    color: rgb(238, 129, 30);
+    font-size: 36px; /* Slightly larger font size */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px; /* Reduced margin for better spacing */
+    font-weight: bold; /* Added font weight */
+  }
+  
+  /* Hover Effect for Books */
+  .recent-book:hover {
+    transform: scale(1.05);
+    transition: all ease 0.5s;
+  }
+  
+  /* Images Marquee */
+  .images {
+    animation: marquee 15s linear infinite;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Ensure full-width display */
+    overflow: hidden; /* Hide overflowing content */
+  }
+  
+  /* Recent Book */
+  .recent-book {
+    display: block;
+    width: 150px;
+    height: auto;
+    margin: 0 1vw;
+    border-radius: 5px;
+    transition: transform 0.5s ease; /* Smoother hover effect */
+  }
+  
+  /* Marquee Animation */
+  @keyframes marquee {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+  }
+  

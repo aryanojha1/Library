@@ -1,0 +1,18 @@
+/* Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Change the font-family to your preference */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Code Styling */
+code {
+  font-family: 'Courier New', monospace; /* Change the font-family for code */
+  background-color: #f5f5f5; /* Adjust the background color for code elements */
+  padding: 4px 8px; /* Increase padding for code elements */
+  border: 1px solid #ddd; /* Adjust the border for code elements */
+  border-radius: 6px; /* Increase border radius for code elements */
+  color: #333; /* Text color for code elements */
+}

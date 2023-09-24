@@ -1,0 +1,35 @@
+/* Reserved Books Container */
+.reservedbooks-container {
+    background-color: #101905; /* Darker background color */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+  }
+  
+  /* Reserved Books Table */
+  .reservedbooks-table {
+    font-family: 'Arial', sans-serif; /* Updated font family */
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px; /* Adjusted maximum width for better responsiveness */
+    margin: 0 auto;
+  }
+  
+  .reservedbooks-table td, .reservedbooks-table th {
+    border: 2px solid #696969;
+    text-align: left;
+    padding: 10px; /* Slightly adjusted padding */
+    background-color: #f7ebd7; /* Lighter background color */
+    color: #333; /* Dark text color for better contrast */
+  }
+  
+  /* Reserved Books Title */
+  .reservedbooks-title {
+    color: #ee811e; /* Updated text color */
+    text-align: center;
+    font-size: 36px; /* Slightly reduced font size */
+    font-weight: bold; /* Added font weight */
+    padding: 20px;
+  }
+  

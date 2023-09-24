@@ -1,0 +1,85 @@
+/* Footer Container */
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #333; /* Darker background color for the footer */
+  color: #fff; /* White text color */
+  padding: 30px 0; /* Added padding for better spacing */
+}
+
+/* Footer Data Section */
+.footer-data {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Allow items to wrap to the next row on smaller screens */
+}
+
+/* Contact Details */
+.contact-details,
+.useful-links,
+.librarian-details {
+  flex: 1; /* Equal distribution of space among columns */
+  text-align: left;
+  letter-spacing: 1.5px;
+  margin: 15px;
+}
+
+/* Useful Links */
+.useful-links a {
+  color: #fff; /* White link color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.useful-links a:hover {
+  color: #eb584b; /* Hover color */
+}
+
+/* Section Headings */
+.contact-details h1,
+.useful-links h1,
+.librarian-details h1 {
+  font-size: 25px;
+  color: #eb584b;
+  padding-bottom: 10px; /* Reduced padding for a cleaner look */
+  border-bottom: 3px solid #eb584b; /* Simplified border */
+  width: fit-content;
+}
+
+/* Social Icons */
+.contact-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.social-icon {
+  font-size: 24px; /* Increased icon size for better visibility */
+  margin: 0 10px; /* Adjusted spacing between icons */
+  color: #eb584b; /* Icon color */
+}
+
+/* Copyright Details */
+.copyright-details {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.copyright-details p {
+  font-size: 18px;
+  font-weight: 600; /* Adjusted font weight */
+  letter-spacing: 1.15px;
+  margin: 10px 0; /* Increased margin for spacing */
+}
+
+.copyright-details span {
+  font-size: 15px;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+  .footer-data {
+    flex-direction: column; /* Stack columns vertically on smaller screens */
+  }
+}

@@ -1,0 +1,129 @@
+/* Reset some default styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Font imports */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+/* Global styles */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #f0f0f0; /* Set your background color */
+  color: #333; /* Set your text color */
+}
+
+/* Stylish welcome box */
+
+.welcome-box {
+  width: 100%;
+  background-color: #ff6b6b; /* Set your background color */
+  text-align: center;
+  padding: 40px 0;
+}
+
+.welcome-title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #fff; /* Set your text color */
+  text-shadow: 2px 2px 0px #18e657, 4px 4px 0px #bf189b,
+    6px 6px #ffeb00, 8px 8px 8px rgba(0, 0, 0, 0.4);
+}
+
+.welcome-message {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #fff; /* Set your text color */
+}
+
+.welcome-submessage {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff; /* Set your text color */
+}
+
+/* Stylish footer */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #333; /* Set your background color */
+  color: #fff; /* Set your text color */
+  padding: 20px 0;
+}
+
+.footer-data {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.contact-details,
+.useful-links,
+.librarian-details {
+  flex: 1;
+  text-align: left;
+  letter-spacing: 1.5px;
+  margin: 15px;
+}
+
+.contact-details h1,
+.useful-links h1,
+.librarian-details h1 {
+  font-size: 25px;
+  color: #ea444a; /* Set your title color */
+  padding-bottom: 15px;
+  border-bottom: 3px solid #ea444a; /* Set your title border color */
+  width: fit-content;
+}
+
+.contact-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.social-icon {
+  margin: 10px;
+  font-size: 24px;
+  color: #fff; /* Set your social icon color */
+}
+
+.copyright-details p {
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 1.15px;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.copyright-details span {
+  font-size: 15px;
+}
+
+/* Stylish books page */
+
+.books-page {
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffcc29; /* Set your background color */
+}
+
+.books {
+  margin: 60px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 15px;
+  max-width: 1024px;
+}
+
+/* Continue adding styles to other sections as needed */
